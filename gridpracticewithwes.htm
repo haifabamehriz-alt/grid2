@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gridpractice</title>
+
+</head>
+<h1> Heyyyyy</h1>
+<body>
+  <div class="div"> 
+ <div class="div item1">1</div>
+ <div class="div item2">2</div>
+ <div class="div item3">3</div>
+ <div class="div item4">4</div>
+ <div class="div item5">5</div>
+ <div class="div item6">6</div>
+ <div class="div item7">7</div>
+ <div class="div item8">8</div>
+ <div class="div item9">9</div>
+ <div class="div item10">10</div>
+ <div class="div item11">11</div>
+ <div class="div item12">12</div>
+ <div class="div item13">13</div>
+ <div class="div item14">14</div>
+ <div class="div item15">15</div>
+ <div class="div item16">16</div>
+ <div class="div item17">17</div>
+ <div class="div item18">18</div>
+ <div class="div item19">19</div>
+ <div class="div item20">20</div>
+ <div class="div item21">21</div>
+ <div class="div item22">22</div>
+ <div class="div item23">23</div>
+ <div class="div item24">24</div>
+ <div class="div item25">25</div>
+ <div class="div item26">26</div>
+ <div class="div item27">27</div>
+ <div class="div item28">28</div>
+ <div class="div item29">29</div>
+ <div class="div item30">30</div>
+
+  </div>
+<style> 
+    .div {
+      display: grid;
+      grid: 20px;
+      grid-template-columns: repeat(10, 2fr);
+      grid-template-rows: repeat(10,50px);
+    }
+
+    .item1 {
+      grid-column: 3 /5;
+
+    }
+    .item2 {
+      grid-column: 5/-1;
+
+    }
+    .item5 {
+      grid-column: span 2;
+      grid-row: span 2;
+
+    }
+.item8 {
+  grid-row: span 2;
+
+}
+.item15 {
+  grid-column: 1 / -1;
+
+}
+.item18 {
+  grid-column: span 4 / 9;
+}
+.item20{
+  grid-column: 4 / span 3 ;
+}
+
+
+
+
+ </style>
+
+</body>
+</html>
