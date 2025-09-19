@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>autofit, autofil</title>
+</head>
+<body>
+  <h1>Most Used Grid Shit</h1>
+  <div class="container">
+
+<div class="div item5">item 01</div>
+<div class="div item6">item 02</div>
+<div class="div item7">item 03</div>
+<div class="div item8">item 04</div>
+<div class="div item5">item 05</div>
+<div class="div item6">item 06</div>
+<div class="div item7">item 07</div>
+<div class="div item8">item 08</div>
+<div class="div item9">item 09</div>
+<div class="div item10">item 10</div>
+<div class="div item11">item 11</div>
+<div class="div item12">item 12</div>
+<div class="div item13">item 13</div>
+<div class="div item14">item 14</div>
+<div class="div item15">item 15</div>
+<div class="div item16">item 16</div>
+<div class="div item17">item 17</div>
+<div class="div item18">item 18</div>
+<div class="div item19">item 19</div>
+<div class="div item20">item 20</div>
+
+</div>
+
+<h2>  Grid areas</h2>
+
+<div class="areas">
+
+<div class="div-item1">
+<p>I am Sidebar 1</p></div>
+
+<div class="div-item2">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quod blanditiis placeat vel enim quis i.</p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A quas li?</p>
+
+</div>
+
+<div class="div-item3">
+<p>I am Sidebar 2</p>
+</div>
+
+<div class="div-footer">
+<p>I am the footer</p></div>
+
+  </div>
+
+ <style>  
+
+.container {
+  display: grid;
+  gap: 10px;
+  border: 3px solid pink;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+}
+.item1, .item2, .item3, .item4 {
+border: 2px dotted rgb(141, 130, 131);
+
+}
+
+.areas {
+margin-top:20px;
+display: grid;
+gap:10px;
+grid-template-columns: 1fr 500px 1fr;
+grid-template-rows: 150px 150px 150px;
+grid-template-areas: 
+  "sidebar-1 content sidebar-2"
+  "sidebar-1  content sidebar-2"
+  "footer footer ."
+}
+.div-footer {
+grid-area: footer;
+}
+
+.div-item1 {
+grid-area: sidebar-1;
+}
+.div-item2 {
+  grid-area: content;
+  }
+
+.div-item3 {
+grid-area: sidebar-2;
+
+}
+
+
+
+ </style>
+</body>
+</html>
