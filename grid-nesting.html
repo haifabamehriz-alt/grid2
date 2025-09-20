@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Album layout</title>
+</head>
+<h1>Album Layout</h1>
+<body>
+<div class="albums">
+
+  <div class="album">
+  <img class="album-img" src="images/5.jpg">
+    <div class="albums-details">
+    <h2>Album Title</h2>
+    <p class="album-artist">Artist name</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam, beatae consequatur reprehenderit qui, blanditiis tenetur at nesciunt numquam cum</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam</p>
+    </div>
+  </div>
+
+  <div class="album">
+    <img class="album-img" src="images/6.jpg ">
+      <div class=" albums-details">
+    <h2>album Title</h2>
+    <p class="album-artist">Artist name</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam, beatae
+      consequatur reprehenderit qui, blanditiis tenetur at nesciunt numquam cum</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam</p>
+  </div>
+  </div>
+
+  <div class="album">
+    <img class="album-img" src="images/5.jpg">
+      <div class=" albums-details">
+    <h2>album Title</h2>
+    <p class="album-artist">Artist name</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam, beatae
+      consequatur reprehenderit qui, blanditiis tenetur at nesciunt numquam cum</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam</p>
+  </div>
+  </div>
+
+<div class="album">
+  <img class="album-img" src="images/6.jpg">
+  <div class=" albums-details">
+    <h2>album Title</h2>
+    <p class="album-artist">Artist name</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam, beatae
+      consequatur reprehenderit qui, blanditiis tenetur at nesciunt numquam cum</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam</p>
+  </div>
+</div>
+
+<div class="album">
+  <img class="album-img" src="images/boden-vinter3.jpg">
+  <div class=" albums-details">
+    <h2>album Title</h2>
+    <p class="album-artist">Artist name</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam, beatae
+      consequatur reprehenderit qui, blanditiis tenetur at nesciunt numquam cum</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam</p>
+  </div>
+</div>
+
+<div class="album">
+  <img class="album-img" src="images/boden2.jpg">
+  <div class="albums-details">
+    <h2>album Title</h2>
+    <p class="album-artist">Artist name</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam, beatae
+      consequatur reprehenderit qui, blanditiis tenetur at nesciunt numquam cum</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam</p>
+  </div>
+</div>
+
+<div class="album">
+  <img class="album-img" src="images/boden1.jpeg">
+  <div class="albums-details">
+    <h2>album Title</h2>
+    <p class="album-artist">Artist name</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam, beatae
+      consequatur reprehenderit qui, blanditiis tenetur at nesciunt numquam cum</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam</p>
+  </div>
+</div>
+
+<div class="album">
+  <img class="album-img" src="images/Boden4.webp">
+  <div class="albums-details">
+    <h2>Album Title</h2>
+    <p class="album-artist">Artist name</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam, beatae
+      consequatur reprehenderit qui, blanditiis tenetur at nesciunt numquam cum</p>
+    <p class="album-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi fuga quibusdam</p>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+<style>
+
+.albums {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap:20px;
+  justify-content: center;
+}
+.album {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow:0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 10px;
+  align-items: center;
+  color: black;
+  font-weight: 100%;
+
+}
+.album-img {
+ width: 100%;
+ height: 80%;
+  justify-content: start;
+
+}
+p {
+  color: rgb(71, 27, 9);
+}
+.album-details {
+ 
+}
+.album-artist {
+   color:rgb(164, 164, 54);
+}
+.album-desc {
+  color: rgb(99, 99, 158);
+}
+
+
+
+</style>
+</body>
+</html>
